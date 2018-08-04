@@ -1,0 +1,35 @@
+package javaapplication9;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ali
+ */
+public class JavaApplication9 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        //‰„—Â Ì œ«‰‘ ¬„Ê“ —« »— «”«”  Ê’Ì›Ì „Ì ‰ÊÌ”œ
+        System.out.println(" Enter the score: ");
+        Scanner Number=new Scanner(System.in);
+        float Score=Number.nextFloat();
+        if (Score<=10)
+         System.out.print("You Failed [ E ]");
+        else if (Score<=12)
+            System.out.print("Better try Again[ D ]");
+        else if (Score<=14)
+            System.out.print("Not bad [ C ]");
+        else if (Score<=18)
+            System.out.print("Good job [ B ]");
+        else if (Score<=20)
+            System.out.print("Excelent [ A ]");
+        else
+            System.out.println("!ERROR! PLEASE ENTER A NUMBER UNDER 20");
+        
+    }
+    
+}
